@@ -1,0 +1,72 @@
+.h1{
+	text-align:center;
+	font-family:Arial;
+	padding:20px;
+}
+
+.box1{
+	border:2px solid black;
+	background: grey;
+	font-family:verdana;
+	float:left;
+	display:inline-block;
+}
+.box2{
+	border:2px solid black;
+	background: grey;
+	font-family:verdana;
+	float:left;
+	display:inline-block;
+}
+.box3{
+	border:2px solid black;
+	background: grey;
+	font-family:verdana;
+	float:left;
+	display:inline-block;
+}
+.content{
+    padding:15px;
+	padding-top:30px;
+}
+.chicken{
+	border:2px solid black;
+	margin:-2px;
+	width:40%;
+	text-align:center;
+	float:right;
+	background-color:pink;
+}
+.beef{
+	border:2px solid black;
+	margin:-2px;
+	width:40%;
+	text-align:center;
+	float:right;
+	background-color:red;
+	color:white;
+}
+.sushi{
+	border:2px solid black;
+	margin:-2px;
+	width:40%;
+	text-align:center;
+	float:right;
+	background-color:yellow;
+}
+/**********desktop**********/
+@media (min-width: 992px)
+    {.box1, .box2, .box3 {width:30%; margin:10px;}
+}
+
+/**********tablet**********/
+@media (min-width: 768px) and (max-width:991px) 
+    {.box1, .box2 {width:45%; margin:10px;}}
+@media (min-width: 768px) and (max-width:991px)    
+    {.box3 {width:calc(90% + 24px); margin-top:10px; margin-left:10px;}}
+
+
+/**********mobile**********/
+@media (max-width: 767px)
+    {.box1, .box2, .box3 {width:50%; margin:10px;}
+}
