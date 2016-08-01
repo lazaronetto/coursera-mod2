@@ -68,5 +68,5 @@
 
 /**********mobile**********/
 @media (max-width: 767px)
-    {.box1, .box2, .box3 {width:100%; margin:10px;}
+    {.box1, .box2, .box3 {width:90%; margin:10px;}
 }
